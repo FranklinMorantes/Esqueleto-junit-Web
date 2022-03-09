@@ -28,7 +28,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 //DemoBase
 public class DemoBase
-
 {
 	protected WebDriver driver;
 
@@ -107,7 +106,6 @@ public class DemoBase
 		Robot robot = new Robot();
 		BufferedImage image = robot.createScreenCapture(screenRectangle);
 		ImageIO.write(image, "png", new File(rutaCarpeta + "/" + hora + "jpg"));
-
 	}
 
 	public File crearCarpeta(Properties propiedades, String nomTest) {
