@@ -107,7 +107,6 @@ public class DemoBase
 		BufferedImage image = robot.createScreenCapture(screenRectangle);
 		ImageIO.write(image, "png", new File(rutaCarpeta + "/" + hora + "jpg"));
 	}
-
 	public File crearCarpeta(Properties propiedades, String nomTest) {
 		// FECHA DEL SISTEMA
 		String fecha = fechaHora();
@@ -121,7 +120,6 @@ public class DemoBase
 		// CREAMOS LA CARPETA
 		directorio.mkdir();
 		return directorio;
-
 	}
 
 	// METODO CLICK
